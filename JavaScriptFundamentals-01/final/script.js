@@ -190,7 +190,7 @@ if (birthYear <= 2000) {
   century = 20;
 } else {
   century = 21;
-} 
+}
 console.log(century);
 */
 
@@ -458,6 +458,18 @@ TEST DATA: Test for bill values 275, 40 and 430
 HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
+
+
+
+
+
+
+
+
+
+
+
+
 GOOD LUCK 😀
 */
 
@@ -466,3 +478,10 @@ const bill = 430;
 const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 */
+
+
+const bill = 430;
+const tip = bill <=300 && bill>=50 ? bill *0.15 : bill *0.2;
+console.log(`the  bill was ${bill}, the tip was ${tip} and total amount was ${bill+tip}`);
+
+
